@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pranav'sPortfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/fee15d01f3.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<div id="header">
+    <div class="container">
+        <nav>
+            <img src="Image/logo.png" class="logo">
+            <ul id="sidemenu">
+            <li><a href="#header">HOME</a></li>
+            <li><a href="#about">ABOUT</a></li>
+            <!--<li><a href="#services">SERVICES</a></li>-->
+            <li><a href="#portfolio">PORTFOLIO</a></li>
+            <li><a href="#contact">CONTACT</a></li>
+            <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+            </ul>
+            <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+            <marquee behavior="" direction="">
+            <p>Web Developer/Designer</p>
+        </marquee>
+            <h1>Hi, I'm <span>Pranav</span> Sharma </h1>
+        </div>
+
+
+    </div>
+</div>
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="Image/user.jpg">
+            </div>
+            <div class="about-col-2">
+                <h2 class="Sub-titles">About Me</h2>
+                <p>I'm Pranav, currently pursuing BE in Computer Science from MIET Jammu, eager to continue exploring the innovative/inspiring field of machine learning & Web Development.</p>
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                    <p class="tab-links" onclick="opentab('education')">Education</p>
+                    <p class="tab-links" onclick="opentab('project')">Projects</p>
+                </div>
+                <div class="tab-content active-tab" id="skills">
+                    <ul>
+                        <li><span>Languages: </span> C,Python,HTML,CSS,JS</li><br>
+                        <li><span>Web Technologies: </span>HTML,CSS,JS</li><br>
+                        <li><span>OS: </span>Windows,Linux</li><br>
+                        <li><span>Office Suite: </span> Ms word, Ms powerpoint, Ms excel</li><br>
+                        <li><span>Storage solution: </span>Gdrive,Microsoft One Drive</li>
+                    </ul>
+                </div>
+                <div class="tab-content" id="education">
+                    <ul>
+                        <li><span>10th  </span>2016-2017, NPHS Sunderbani, <span>Percentage: </span>83%</li><br>
+                        <li><span>12th  </span>2018-2019, SP Smart Jammu, <span>Percentage: </span>80.8%</li><br>
+                        <li><span> BE  </span>2019-2023, MIET Jammu, <span>Percentage: </span>73%</li>
+                    </ul>
+                </div>
+                <div class="tab-content" id="project">
+                    <ul>
+                        <li><span>Portfolio Website </span><br> Build a portfolio website using css,html,js</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>  
+<!-------services-------
+
+<div id="services">
+    <div class="container">
+        <h2 class="sub-title">My Services</h2>
+        <div class="services-list">
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h3>Web Developer</h3>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ea, praesentium, placeat excepturi animi sequi quis magni laboriosam quas aut ipsam magnam porro deserunt perspiciatis rerum suscipit a, modi similique molestias.</p>
+                <a href="#">Learn More</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-crop"></i>
+                <h3>UI design</h3>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ea, praesentium, placeat excepturi animi sequi quis magni laboriosam quas aut ipsam magnam porro deserunt perspiciatis rerum suscipit a, modi similique molestias.</p>
+                <a href="#">Learn More</a>
+            </div>
+
+        </div>
+
+    </div>
+
+
+</div>
+-->
+
+<!-- portfolio -->
+<div id="portfolio">
+    <div class="container">
+        <h2 class="sub-title">My Work</h2>
+        <div class="work-list">
+            <div class="work">
+                <img src="Image/work-1.png" alt="">
+                <div class="layer">
+                    <h2>Portfolio Website</h2>
+                    <p>Build a portfolio website using HTML, CSS & JS. This website contains all the information.</p>
+                    <a href="#"> <i class="fa-sharp fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="Image/work-2.png" alt="">
+                <div class="layer">
+                    <h2>Blank</h2>
+                    <p>App build using nothing u can chage this section later </p>
+                    <a href="#"> <i class="fa-sharp fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="Image/work-3.png" alt="">
+                <div class="layer">
+                    <h2>Blank</h2>
+                    <p>App build using nothing u can chage this section later </p>
+                    <a href="#"> <i class="fa-sharp fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="btn">See More</a>
+    </div>
+</div>
+
+<!--contact form-->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h2 class="sub-title">Contact Me</h2>
+                <p><i class="fa-solid fa-envelope"></i> pranav.14-cse-19@mietjammu.in</p>
+                <p><i class="fa-solid fa-square-phone"></i> 7051881216</p>
+                <div class="social-icon">
+                    <a href=""><i class="fa-brands fa-facebook"></i></a>
+                    <a href=""><i class="fa-brands fa-instagram"></i></a>
+                    <a href=""><i class="fa-brands fa-twitter-square"></i></a>
+                    <a href="https://www.linkedin.com/in/pranav-sharma14"><i class="fa-brands fa-linkedin"></i></a>
+                </div>
+                <a href="Image/my-cv.pdf" download class="btn btn2">Download Resume</a>
+            </div>>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your name" required>
+                    <input type="email" name="email" placeholder="Your email" required>
+                    <textarea name="Message"   rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+
+                </form>
+                <span id="msg">
+                    
+                </span>
+            </div>
+            </div>
+         
+            
+        </div>
+    </div>
+<!-- copyright-->
+ <div class="copyright">
+    <p>Copyright © 2023. Designed with <i class="fa-solid fa-heart"></i> by Pranav Sharma</p>
+ </div>
+</div>
+ 
+
+
+
+<!---- script -->
+<script>
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-content");
+
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+
+
+</script>
+ 
+
+<script>
+
+    var sidemenu = document.getElementById("sidemenu");
+    
+    function openmenu(){
+        sidemenu.style.right = "0";
+    }
+
+    function closemenu(){
+        sidemenu.style.right = "-200px";
+    }
+</script>
+
+
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbytCWwyCMvyZ53S_vltCg48bwIn0_YT3IGNeOQsmYba29VI0gxGVDLW--DRAI_30y_1qA/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "Message sent successfuly"
+            setTimeout(function(){
+                msg.innerHTML =""
+
+            }, 1000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+
+</body>
+</html>
